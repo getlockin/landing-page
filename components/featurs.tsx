@@ -8,9 +8,9 @@ export default function Features() {
     return (
         <div className="flex flex-col justify-center items-center">
         <h1 className="text-[48px] font-bold">Features</h1>
-        <p>Powerful additions that enhance flexibility, speed, and team collaboration.</p>
+        <p className="text-center">Powerful additions that enhance flexibility, speed, and team collaboration.</p>
 
-        <div className="flex flex-row justify-center items-center space-x-10 my-[80px]">
+        <div className="flex flex-col md:flex-row justify-center items-center md:items-stretch gap-10 my-[80px]">
             <FeaturesCard subheading="Set real targets, not just tasks" paragraph="Join curated 21-day habit challenges or create your own. every goal has clear rules, timelines, and stakes to keep you consistent." image={Feature01} />
 
             <FeaturesCard subheading="Daily proof uploads" paragraph="Complete your goal by uploading simple daily proof — like a photo or short video. visible proof builds trust and keeps you honest." image={Feature02} />
