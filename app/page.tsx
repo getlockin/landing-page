@@ -12,9 +12,9 @@ export default function Home() {
       <Appbar />
       <Hero />
       <VideoSection /> {/* Add the new VideoSection component */}
-      <Features />
-      <FAQs />
-      <Footer />
+      <div id="features"><Features /></div>
+      <div id="faqs"><FAQs /></div>
+      <div id="contact"><Footer /></div>
     </div>
   );
 }

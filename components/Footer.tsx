@@ -18,9 +18,9 @@ export default function Footer() {
 
           {/* Navigation Links */}
           <nav className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm">
-            <Link href="/features" className="hover:text-white transition-colors">Features</Link>
-            <Link href="/faqs" className="hover:text-white transition-colors">FAQs</Link>
-            <Link href="/contact" className="hover:text-white transition-colors">Contact</Link>
+            <Link href="#features" className="hover:text-white transition-colors">Features</Link>
+            <Link href="#faqs" className="hover:text-white transition-colors">FAQs</Link>
+            <Link href="#contact" className="hover:text-white transition-colors">Contact</Link>
           </nav>
 
           {/* Social Media Icon */}
