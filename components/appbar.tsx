@@ -24,10 +24,10 @@ export default function Appbar() {
                         <li><Link href="#faqs" className="hover:text-gray-300">FAQs</Link></li>
                         <li><Link href="#contact" className="hover:text-gray-300">Contact</Link></li>
                     </ul>
-                    <button className="bg-red-500 hover:bg-red-600 text-white font-semibold py-3 px-6 rounded-lg flex items-center space-x-2">
+                    {/* <button className="bg-red-500 hover:bg-red-600 text-white font-semibold py-3 px-6 rounded-lg flex items-center space-x-2">
                         <span>Get Started</span>
                         <span>→</span>
-                    </button>
+                    </button> */}
                 </div>
 
                 {/* Mobile Menu Button */}
@@ -54,12 +54,12 @@ export default function Appbar() {
                         <li><Link href="#faqs" className="hover:text-gray-300 block py-2" onClick={closeMenu}>FAQs</Link></li>
                         <li><Link href="#contact" className="hover:text-gray-300 block py-2" onClick={closeMenu}>Contact</Link></li>
                     </ul>
-                    <div className="mt-4 flex justify-center">
+                    {/* <div className="mt-4 flex justify-center">
                         <button className="bg-red-500 hover:bg-red-600 text-white font-semibold py-3 px-8 rounded-lg flex items-center space-x-2">
                             <span>Get Started</span>
                             <span>→</span>
                         </button>
-                    </div>
+                    </div> */}
                 </div>
             )}
         </nav>
