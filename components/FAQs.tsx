@@ -23,11 +23,6 @@ const faqsData = [
     question: "What kind of goals can I commit to?",
     answer: "You can commit to anything — daily habits, fitness goals, learning targets, etc. Soon we’ll also support community challenges, where multiple users join the same goal and compete or collaborate.",
   },
-
-  {
-    question: "What kind of goals can I commit to?",
-    answer: "You can commit to anything — daily habits, fitness goals, learning targets, etc. Soon we’ll also support community challenges, where multiple users join the same goal and compete or collaborate",
-  }
 ];
 
 export default function FAQs() {
