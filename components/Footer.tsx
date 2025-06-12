@@ -1,6 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import LockinLogo from '@/public/lockin_logo.png'; // Assuming the path is correct relative to 'public'
+import LockinLogo from '@/public/lockin_logo.png';
+import x from "@/public/twitter.png"
+import github from "@/public/github.png"
 
 // Placeholder icon - replace with actual SVG or an icon library
 const TwitterIcon = () => <span className="h-6 w-6 flex items-center justify-center rounded-full bg-white text-black text-xs font-bold">X</span>;
@@ -25,7 +27,18 @@ export default function Footer() {
 
           {/* Social Media Icon */}
           <div className="flex gap-4 items-center">
-            <a href="#" aria-label="Twitter" className="hover:opacity-80 transition-opacity"><TwitterIcon /></a>
+           <Link href={"https://x.com/getlockinn"}>
+           <p className='bg-white rounded-2xl'>
+                <Image src={x} alt="twitter logo" />
+              </p>
+           </Link>
+
+            <Link href={"https://github.com/getlockin/"}>
+              <p className='bg-white rounded-2xl'>
+                <Image src={github} alt="github logo" width={35} />
+              </p>
+            </Link>
+
           </div>
         </div>
 
