@@ -28,9 +28,9 @@ export default function Hero() {
                     <p>stay accountable.</p>
                 </div>
 
-                <div className="mt-10">
+                {/* <div className="mt-10">
                     <DownloadButtons />
-                </div>
+                </div> */}
             </div>
         </div>
     )
