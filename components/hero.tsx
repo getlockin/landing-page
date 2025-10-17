@@ -12,7 +12,7 @@ export default function Hero() {
                         variant="outline"
                         className="text-[#ff5757] border-[#ff57573d] px-4 py-2 h-8 rounded-lg bg-black/70 backdrop-blur-sm"
                     >
-                        Powered by Blockchain
+                        Powered by Solana
                     </Badge>
                 </div>
 
